@@ -6,9 +6,9 @@ colors: https://coolors.co/palettes/trending
 
 */
 
-@import url('css/boska.css');
-@import url('css/zodiak.css');
-@import url('css/marasga.css');
+@import url('../css/boska.css');
+@import url('../css/zodiak.css');
+@import url('../css/marasga.css');
 body,
 html {
   margin: 0;
