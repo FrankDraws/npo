@@ -46,7 +46,12 @@ body {
 #credit {
   color: #85A921;
   font-size: xx-small;
-  padding: 1.5em;
+  height: min-content;
+  width: max-content;
+  line-height: 1;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  margin-left: 1em;
 }
 
 #credit a,
@@ -54,6 +59,11 @@ a:visited {
   color: #85A921;
   text-decoration: none;
   border-bottom: 1px solid #85A921;
+}
+
+#credit span {
+  display: block;
+  padding: 1em;
 }
 
 #main {
@@ -160,6 +170,11 @@ hr {
 #legal {
   color: gray;
   font-size: small;
+}
+
+.footer {
+  background: #9a9a9a;
+  height: 8em;
 }
 
 
