@@ -6,9 +6,9 @@ colors: https://coolors.co/palettes/trending
 
 */
 
-@import url('css/boska.css');
-@import url('css/zodiak.css');
-@import url('css/marasga.css');
+@import url('../css/boska.css');
+@import url('../css/zodiak.css');
+@import url('../css/marasga.css');
 body,
 html {
   margin: 0;
@@ -27,7 +27,8 @@ body {
 }
 
 .highlight {
-  color: #fee440;
+  background-color: #fee440;
+  padding: 5px;
 }
 
 #hero {
@@ -170,11 +171,7 @@ hr {
 #legal {
   color: gray;
   font-size: small;
-}
-
-.footer {
-  background: #9a9a9a;
-  height: 8em;
+  text-align: center;
 }
 
 
