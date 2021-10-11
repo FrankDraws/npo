@@ -40,8 +40,8 @@ body {
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  /* place-items: center; */
+  grid-template-rows: 100%;
+  place-items: center;
 }
 
 #hero2 {
@@ -188,7 +188,7 @@ hr {
   margin: 2em 0;
 }
 
-#legal {
+.legal {
   color: #b7b7a4;
   font-size: small;
   text-align: center;
