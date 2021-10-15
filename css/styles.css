@@ -50,28 +50,33 @@ a:hover {
 }
 
 nav {
-  width: 120px;
+  width: 200px;
   height: 50px;
   font-family: "Helvetica", sans-serif;
   font-weight: 500;
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
-  border-radius: 2em;
-  margin-top: 1.5em;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.55);
   padding: 0 1em;
-  /* Frosted glass effect, webkit only */
-  background-color: rgba(239, 239, 239, 0.85);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);
+  /* IE6-9 */
 }
 
-@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+
+/* @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
   nav {
     -webkit-backdrop-filter: blur(.5rem);
     backdrop-filter: blur(.5rem);
     background-color: rgba(255, 255, 255, 0.5);
   }
-}
+} */
 
 
 /* 
@@ -101,9 +106,6 @@ nav {
   grid-template-columns: 1fr;
   grid-template-rows: 50px 1fr;
   place-items: center;
-  /* background-image: linear-gradient(163deg, rgb(217, 198, 252), rgb(82, 114, 237)); */
-  /* background: url(https://i.ibb.co/DtLP8z3/morning.jpg) no-repeat center -40px;
-  background-size: cover; */
   background: transparent url(../media/kunal-shinde--f0YLss50Bs-unsplash.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
@@ -174,7 +176,6 @@ img {
 .cform {
   display: grid;
   grid-template-columns: 1fr;
-  /* grid-template-rows: 100vh; */
   place-items: center;
   padding: 1em;
 }
@@ -188,7 +189,6 @@ img {
   .card {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
-    /* place-items: center; */
     padding: 1rem 2em;
   }
   .card p {
@@ -200,7 +200,8 @@ img {
 }
 
 
-/* @media (hover: hover) {
+/* 
+@media (hover: hover) {
   button {
     height: 45px;
     width: auto;
@@ -221,7 +222,8 @@ img {
     border: 1px solid #99d98c;
     color: #007f5f;
   }
-} */
+} 
+*/
 
 
 /* Make sure to add button href back in the html. */
