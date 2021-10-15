@@ -62,7 +62,7 @@ nav {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.55);
   padding: 0 1em;
   /* Frosted glass effect, webkit only */
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(239, 239, 239, 0.85);
 }
 
 @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
@@ -370,4 +370,18 @@ input[type=submit]:hover {
 
 .container p {
   max-width: 60ch;
+}
+
+
+/* THANK YOU PAGE */
+
+#thanks {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 50px;
+  place-items: center;
+}
+
+#ty {
+  width: 700px;
 }
