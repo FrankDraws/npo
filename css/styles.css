@@ -104,8 +104,9 @@ nav {
   /* background-image: linear-gradient(163deg, rgb(217, 198, 252), rgb(82, 114, 237)); */
   /* background: url(https://i.ibb.co/DtLP8z3/morning.jpg) no-repeat center -40px;
   background-size: cover; */
-  background: transparent url(../media/kunal-shinde--f0YLss50Bs-unsplash.jpg) no-repeat center -170px;
+  background: transparent url(../media/kunal-shinde--f0YLss50Bs-unsplash.jpg) no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 .credit a,
@@ -192,6 +193,9 @@ img {
   }
   .card p {
     text-align: left;
+  }
+  #hero2 {
+    background-position: center -170px;
   }
 }
 
@@ -360,8 +364,8 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   /* background-color: #fff; */
-  padding: 20px;
-  max-width: 70vw;
+  /* padding: 20px; */
+  max-width: 85vw;
 }
 
 .container p {
