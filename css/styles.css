@@ -50,15 +50,17 @@ a:hover {
 }
 
 nav {
-  width: 100%;
+  width: 120px;
   height: 50px;
   font-family: "Helvetica", sans-serif;
   font-weight: 500;
   display: grid;
   grid-template-columns: 1fr;
-  align-items: center;
-  justify-items: flex-end;
-  padding-right: 15%;
+  place-items: center;
+  border-radius: 2em;
+  margin-top: 1.5em;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.55);
+  padding: 0 1em;
   /* Frosted glass effect, webkit only */
   background-color: rgba(255, 255, 255, 0.85);
 }
@@ -86,12 +88,12 @@ nav {
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 100%;
+  grid-template-rows: 50px 1fr;
   place-items: center;
 }
 
 #hero2 {
-  height: 30vh;
+  height: 35vh;
   width: 100%;
   z-index: 0;
   overflow: hidden;
@@ -99,9 +101,11 @@ nav {
   grid-template-columns: 1fr;
   grid-template-rows: 50px 1fr;
   place-items: center;
-  background-image: linear-gradient(163deg, rgb(217, 198, 252), rgb(82, 114, 237));
+  /* background-image: linear-gradient(163deg, rgb(217, 198, 252), rgb(82, 114, 237)); */
   /* background: url(https://i.ibb.co/DtLP8z3/morning.jpg) no-repeat center -40px;
   background-size: cover; */
+  background: transparent url(../media/kunal-shinde--f0YLss50Bs-unsplash.jpg) no-repeat center -170px;
+  background-size: cover;
 }
 
 .credit a,
@@ -152,6 +156,11 @@ nav {
   text-align: center;
 }
 
+.message {
+  text-align: center;
+  font-style: italic;
+}
+
 img {
   width: 100px;
 }
@@ -176,18 +185,18 @@ img {
 
 @media only screen and (min-width: 768px) {
   .card {
-    grid-template-columns: 150px 1fr;
-    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    /* place-items: center; */
     padding: 1rem 2em;
   }
   .card p {
     text-align: left;
-    /* align-self: stretch; */
-    /*     outline: 1px solid red; */
   }
 }
 
-@media (hover: hover) {
+
+/* @media (hover: hover) {
   button {
     height: 45px;
     width: auto;
@@ -208,6 +217,20 @@ img {
     border: 1px solid #99d98c;
     color: #007f5f;
   }
+} */
+
+
+/* Make sure to add button href back in the html. */
+
+button {
+  height: 45px;
+  width: auto;
+  padding: 1em 3em;
+  margin: 1em .5em;
+  line-height: 0;
+  border: 1px solid #adb5bd;
+  background-color: #fff;
+  color: #adb5bd;
 }
 
 .btn,
