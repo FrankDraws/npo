@@ -148,8 +148,9 @@ nav {
   place-items: center;
 }
 
-.card p {
+.message {
   text-align: center;
+  font-style: italic;
 }
 
 img {
@@ -176,14 +177,10 @@ img {
 
 @media only screen and (min-width: 768px) {
   .card {
-    grid-template-columns: 150px 1fr;
-    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    /* place-items: center; */
     padding: 1rem 2em;
-  }
-  .card p {
-    text-align: left;
-    /* align-self: stretch; */
-    /*     outline: 1px solid red; */
   }
 }
 
