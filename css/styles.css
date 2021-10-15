@@ -58,25 +58,17 @@ nav {
   grid-template-columns: 1fr;
   place-items: center;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.55);
-  padding: 0 1em;
-  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 1) 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 1) 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 1) 80%, rgba(255, 255, 255, 1) 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);
-  /* IE6-9 */
+  /* Frosted glass effect, webkit only */
+  background-color: rgba(239, 239, 239, 0.85);
 }
 
-
-/* @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
   nav {
     -webkit-backdrop-filter: blur(.5rem);
     backdrop-filter: blur(.5rem);
     background-color: rgba(255, 255, 255, 0.5);
   }
-} */
+}
 
 
 /* 
@@ -95,6 +87,10 @@ nav {
   grid-template-columns: 1fr;
   grid-template-rows: 50px 1fr;
   place-items: center;
+}
+
+nav img {
+  width: 20px;
 }
 
 #hero2 {
