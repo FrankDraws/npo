@@ -34,18 +34,21 @@
                 <p>We'd love to hear from you. You can either email us at the address below, or fill out the form and submit.</p>
                 <p><b>serve@helpinghandsforall.org</b></p>
                 <br><br>
-                <form action="https://usebasin.com/f/b3cd3717e375" method="post">
+                <form action="https://formsubmit.co/serve@helpinghandsforall.org" method="POST">
 
                     <label for="fname">Full Name</label>
-                    <input type="text" id="name" name="full_name" placeholder="Full Name">
+                    <input type="text" id="name" name="full_name" placeholder="Full Name" required>
 
                     <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="Email">
+                    <input type="text" id="email" name="email" placeholder="Email" required>
 
                     <label for="message">Message</label>
                     <textarea id="message" name="message" placeholder="Write your message here." style="height:200px"></textarea>
 
                     <button type="submit">Submit</button>
+                    <input type="hidden" name="_next" value="https://www.helpinghandsforall.org/thank-you.html">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_captcha" value="false">
 
                 </form>
             </div>
