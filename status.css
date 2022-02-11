@@ -1,6 +1,6 @@
 :root {
   --bgc: #E7E5E7;
-  --hfont01: "Helvetica", sans-serif;
+  --hf01: "Helvetica", sans-serif;
   --bfont01: "Georgia", serif;
 }
 
@@ -58,7 +58,7 @@ blockquote {
 h1,
 h2,
 h3 {
-  font-family: var(--hfont01);
+  font-family: var(--hf01);
 }
 
 h1 {
