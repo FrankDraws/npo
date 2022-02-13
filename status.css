@@ -29,8 +29,12 @@ body {
   list-style: none;
 }
 
-.highlight {
+.yellow {
   background-color: yellow;
+}
+
+.red {
+  color: red;
 }
 
 blockquote {
