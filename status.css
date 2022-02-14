@@ -48,6 +48,10 @@ input[type=checkbox]:checked+label {
   color: #888;
 }
 
+.rmv {
+  background-color: transparent;
+}
+
 
 /* 
 Font Clamp  

@@ -18,16 +18,17 @@
         <ul>
             <li class="sans"><label><input type="checkbox" checked> <label>Obtained business name</label></label>
             </li>
-            <li class="sans"><input type="checkbox" checked> <label>Article of Incorporation</label></li>
-            <li class="sans"><input type="checkbox" checked> <label>Nonprofit status</label></li>
-            <li class="sans"><input type="checkbox" checked> <label>EIN</label></li>
-            <li class="sans"><input type="checkbox" checked> <label>Opened bank account</label></li>
-            <li class="sans"><input type="checkbox"> <label><span class="yellow">Tax exemption • 3/1/22 check-in // <em>In Progress</em></span></label>
+            <li class="sans"><input class="chk" type="checkbox" checked> <label>Article of Incorporation</label></li>
+            <li class="sans"><input class="chk" type="checkbox" checked> <label>Nonprofit status</label></li>
+            <li class="sans"><input class="chk" type="checkbox" checked> <label>EIN</label></li>
+            <li class="sans"><input class="chk" type="checkbox" checked> <label>Opened bank account</label></li>
+            <li class="sans">
+                <input class="chk" type="checkbox" onclick="myFunction()"> <label><span class="yellow">Tax exemption • 3/1/22 check-in // <em>In Progress</em></span></label>
             </li>
-            <li class="sans"><input type="checkbox"> <label><span class="yellow">Write bylaws // <em>In Progress</em></span></label></li>
-            <li class="sans"><input type="checkbox"> <label>Narrative of Activities</label></li>
-            <li class="sans"><input type="checkbox"> <label><span class="yellow">Hold first board meeting prior to 501c3 submission</span></label></li>
-            <li class="sans"><input type="checkbox"> <label><span class="red">Submit first annual report by May 1st</span></label></li>
+            <li class="sans"><input class="chk" type="checkbox"> <label><span class="yellow">Write bylaws // <em>In Progress</em></span></label></li>
+            <li class="sans"><input class="chk" type="checkbox"> <label>Narrative of Activities</label></li>
+            <li class="sans"><input class="chk" type="checkbox"> <label><span class="yellow">Hold first board meeting prior to 501c3 submission</span></label></li>
+            <li class="sans"><input class="chk" type="checkbox"> <label><span class="red">Submit first annual report by May 1st</span></label></li>
         </ul>
 
 
@@ -65,6 +66,11 @@
             only created by me? Or will we ask local artist to donate work for us?</p>
 
     </section>
+    <script>
+        // https://sebhastian.com/javascript-queryselectorall/
+
+        // let elements = document.querySelectorAll(".chk");
+    </script>
 </body>
 
 </html>
