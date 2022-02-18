@@ -16,7 +16,7 @@
         <p>The information below are things that I'm working on, questions I have, and so forth.</p>
         <h1>Nonprofit To Dos</h1>
         <ul>
-            <li class="sans"><input type="checkbox" checked> <label>Obtained business name</label></li>
+            <li class="sans"><input id="accept" name="accept" type="checkbox" checked> <label for="accept">Obtained business name</label></li>
             <li class="sans"><input class="checkbox" type="checkbox" checked> <label>Article of Incorporation</label></li>
             <li class="sans"><input class="checkbox" type="checkbox" checked> <label>Nonprofit status</label></li>
             <li class="sans"><input class="checkbox" type="checkbox" checked> <label>EIN</label></li>
@@ -74,13 +74,22 @@
     </section>
     <script>
         // https://sebhastian.com/javascript-queryselectorall/
-
+        // If checkbox is checked, then remove class yellow.
         let checkbox = document.querySelector("input");
+        let ckd = document.querySelector("input:checked");
         let y = document.querySelector("label");
 
-        if (checkbox.checked == true) {
-            y.classList.remove("yellow");
-        }
+        // if (checkbox.checked == true) {
+        //     y.classList.remove("yellow");
+        // }
+
+        // Keep state of checkbox. Strikethrough when checked.
+        // document.querySelectorAll('input').onclick = function() {
+        //     var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        //     for (var checkbox of checkboxes) {
+        //         checkbox.checked = !checkbox.checked;
+        //     }
+        // }
     </script>
 </body>
 
