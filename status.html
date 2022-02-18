@@ -16,24 +16,23 @@
         <p>The information below are things that I'm working on, questions I have, and so forth.</p>
         <h1>Nonprofit To Dos</h1>
         <ul>
-            <li class="sans"><label><input type="checkbox" checked> <label>Obtained business name</label></label>
-            </li>
-            <li class="sans"><input class="chk" type="checkbox" checked> <label>Article of Incorporation</label></li>
-            <li class="sans"><input class="chk" type="checkbox" checked> <label>Nonprofit status</label></li>
-            <li class="sans"><input class="chk" type="checkbox" checked> <label>EIN</label></li>
-            <li class="sans"><input class="chk" type="checkbox" checked> <label>Opened bank account</label></li>
-            <li class="sans"><input class="chk" type="checkbox"> <label><span class="red">Submit first annual report by May 1st</span></label>
+            <li class="sans"><input type="checkbox" checked> <label>Obtained business name</label></li>
+            <li class="sans"><input class="checkbox" type="checkbox" checked> <label>Article of Incorporation</label></li>
+            <li class="sans"><input class="checkbox" type="checkbox" checked> <label>Nonprofit status</label></li>
+            <li class="sans"><input class="checkbox" type="checkbox" checked> <label>EIN</label></li>
+            <li class="sans"><input class="checkbox" type="checkbox" checked> <label>Opened bank account</label></li>
+            <li class="sans"><input class="checkbox" type="checkbox"> <label class="red">Submit first annual report by May 1st</label>
                 <ul>
                     <li>This is something our registered agent may be able to do.</li>
                 </ul>
             </li>
 
             <li class="sans">
-                <input class="chk" type="checkbox" onclick="myFunction()"> <label><span class="yellow">Tax exemption • 3/1/22 check-in // <em>In Progress</em></span></label>
+                <input class="checkbox" type="checkbox"> <label class="yellow">Tax exemption • 3/1/22 check-in // <em>In Progress</em></label>
             </li>
-            <li class="sans"><input class="chk" type="checkbox"> <label><span class="yellow">Write bylaws // <em>In Progress</em></span></label></li>
-            <li class="sans"><input class="chk" type="checkbox"> <label>Narrative of Activities</label></li>
-            <li class="sans"><input class="chk" type="checkbox"> <label><span class="yellow">Hold first board meeting prior to 501c3 submission</span></label></li>
+            <li class="sans"><input class="checkbox" type="checkbox"> <label class="yellow">Write bylaws // <em>In Progress</em></label></li>
+            <li class="sans"><input class="checkbox" type="checkbox"> <label>Narrative of Activities</label></li>
+            <li class="sans"><input class="checkbox" type="checkbox"> <label class="yellow">Hold first board meeting prior to 501c3 submission</label></li>
         </ul>
 
 
@@ -43,7 +42,7 @@
                     <li>I think these are the Articles of Incorporation.</li>
                     <li>This is in Part III of Form 1023.</li>
                     <li>Articles of Incorporation include the type (charitable org), purpose, and dissolution provisions.</li>
-                    <li><span class="yellow">May have to amend in order to increase chance of approval. Are there implications for this?. Registered Agent might be able to help.</span></li>
+                    <li class="yellow">May have to amend in order to increase chance of approval. Are there implications for this?. Registered Agent might be able to help.</li>
                     <li>Must have IRS approved language in Articles of Incorporation.</li>
                 </ul>
             </li>
@@ -76,7 +75,12 @@
     <script>
         // https://sebhastian.com/javascript-queryselectorall/
 
-        // let elements = document.querySelectorAll(".chk");
+        let checkbox = document.querySelector("input");
+        let y = document.querySelector("label");
+
+        if (checkbox.checked == true) {
+            y.classList.remove("yellow");
+        }
     </script>
 </body>
 
