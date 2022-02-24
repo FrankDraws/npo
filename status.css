@@ -38,9 +38,11 @@ body {
 }
 
 blockquote {
-  border-left: 3px solid #333;
+  border-left: 3px solid #D88D00;
   padding-left: 1em;
-  color: #777;
+  color: #D88D00;
+  background-color: #efefef;
+  padding: 1em;
 }
 
 input[type=checkbox]:checked+label {
