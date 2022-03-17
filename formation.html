@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formation</title>
+    <link rel="stylesheet" href="status.css">
+</head>
+
+<body>
+    <section class="container">
+        <p><a href="index.html">Home</a></p>
+        <h1>We’re in search of someone that can help us finalize the formation of our nonprofit. Preferrably pro bono, or at least within budget.</h1>
+
+        <h2>Completed</h2>
+        <ul>
+            <li class="sans"><input id="accept" name="accept" type="checkbox" checked> <label for="accept">Obtained business name</label></li>
+            <li class="sans"><input class="checkbox" type="checkbox" checked> <label>Articles of Incorporation with the state.</label></li>
+            <li class="sans"><input class="checkbox" type="checkbox" checked> <label>Nonprofit status</label></li>
+            <li class="sans"><input class="checkbox" type="checkbox" checked> <label>EIN</label></li>
+            <li class="sans"><input class="checkbox" type="checkbox" checked> <label>Opened bank account</label></li>
+        </ul>
+
+        <h2>We are in need of the following:</h2>
+        <ul>
+            <li class="sans"><input class="checkbox" type="checkbox"> <label>Create organization by-laws</li>
+            <li class="sans"><input class="checkbox" type="checkbox"> <label>Complete Form 1023 and Narrative of Activities</li>
+            <li class="sans"><input class="checkbox" type="checkbox"> <label>Create Compensation and Conflict of Interest Policies</li>
+            <li class="sans"><input class="checkbox" type="checkbox"> <label>Review bylaws to ensure inclusion of Dissolution and Charitable Contributions clauses</li>
+            <li class="sans"><input class="checkbox" type="checkbox"> <label>Obtain IRS approval of 501(c)3 tax-exempt status</li>
+            <li class="sans"><input class="checkbox" type="checkbox"> <label>Handle all documents and correspondence with State and Federal agencies</li>
+        </ul>
+
+
+
+    </section>
+    <script>
+        // https://sebhastian.com/javascript-queryselectorall/
+        // If checkbox is checked, then remove class yellow.
+        let checkbox = document.querySelector("input");
+        let ckd = document.querySelector("input:checked");
+        let y = document.querySelector("label");
+
+        // if (checkbox.checked == true) {
+        //     y.classList.remove("yellow");
+        // }
+
+        // Keep state of checkbox. Strikethrough when checked.
+        // document.querySelectorAll('input').onclick = function() {
+        //     var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        //     for (var checkbox of checkboxes) {
+        //         checkbox.checked = !checkbox.checked;
+        //     }
+        // }
+    </script>
+</body>
+
+</html>

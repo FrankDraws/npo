@@ -84,13 +84,13 @@ h1 {
 }
 
 h2 {
-  --fluid-type-min: 1.8rem;
-  --fluid-type-max: 3rem;
+  --fluid-type-min: 1rem;
+  --fluid-type-max: 1.8rem;
 }
 
 h3 {
-  --fluid-type-min: 1.5rem;
-  --fluid-type-max: 2.5rem;
+  --fluid-type-min: 0.7rem;
+  --fluid-type-max: 1.4rem;
 }
 
 p,
