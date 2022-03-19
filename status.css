@@ -56,6 +56,40 @@ input[type=checkbox]:checked+label {
 
 
 /* 
+  Table
+*/
+
+table {
+  border: 1px solid #b3adad;
+  border-collapse: collapse;
+  /* padding: 5px; */
+  margin: 3em 0 5em 0;
+}
+
+table th {
+  border: 1px solid #b3adad;
+  padding: 5px;
+  background: #f0f0f0;
+  color: #313030;
+  text-align: left;
+}
+
+table td {
+  border: 1px solid #b3adad;
+  text-align: left;
+  padding: 1em;
+  background: #ffffff;
+  color: #313030;
+}
+
+.total {
+  /* background: #dfdfdf; */
+  font-weight: bold;
+  border-top: 3px solid #b3adad;
+}
+
+
+/* 
 Font Clamp  
 https://piccalil.li/tutorial/fluid-typography-with-css-clamp/
 */
