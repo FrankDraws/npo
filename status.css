@@ -102,7 +102,8 @@ h2,
 h3,
 p,
 li,
-blockquote {
+blockquote,
+td {
   font-size: clamp( var(--fluid-type-min, 1rem), calc(1rem + var(--fluid-type-target, 3vw)), var(--fluid-type-max, 1.3rem));
   max-width: 60ch;
 }
@@ -132,7 +133,8 @@ h3 {
 }
 
 p,
-li {
+li,
+td {
   /* max-width: 60ch; */
   line-height: 1.7;
   padding-bottom: 0.5em;
