@@ -86,7 +86,7 @@ table td {
 
 .total {
   /* background: #dfdfdf; */
-  font-family: var(--hf01);
+  /* font-family: var(--hf01); */
   /* font-weight: bold; */
   border-top: 3px solid #b3adad;
 }
