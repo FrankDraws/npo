@@ -281,6 +281,12 @@ h1 {
   /* padding: 0.8em; */
 }
 
+@media only screen and (max-width: 980px) {
+  #herocopy {
+    align-self: start;
+  }
+}
+
 h2 {
   font-family: 'Zodiak-Black', serif;
   --fluid-type-min: 1rem;
