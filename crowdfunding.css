@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-  width: 80vw;
+  width: 70vw;
   height: 100%;
   /* outline: 1px solid red; */
   margin: 5em 1em 3em;
@@ -42,6 +42,11 @@ body {
   place-items: center;
 }
 
+.content {
+  /* outline: 1px solid red; */
+  padding: 0 1.5em 1.5em;
+}
+
 
 /* 
 Font Clamp  
@@ -57,7 +62,7 @@ blockquote,
 th,
 td {
   font-size: clamp( var(--fluid-type-min, 1rem), calc(1rem + var(--fluid-type-target, 3vw)), var(--fluid-type-max, 1.3rem));
-  max-width: 60ch;
+  /* max-width: 60ch; */
 }
 
 h1,
