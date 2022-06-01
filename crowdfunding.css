@@ -47,6 +47,10 @@ body {
   padding: 0 1.5em 1.5em;
 }
 
+p {
+  padding: 0
+}
+
 
 /* 
 Font Clamp  
@@ -97,4 +101,10 @@ td {
   line-height: 1.7;
   padding-bottom: 0.5em;
   font-family: var(--bfont01);
+}
+
+@media only screen and (min-width: 768px) {
+  .content {
+    padding: 0;
+  }
 }
