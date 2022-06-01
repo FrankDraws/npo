@@ -36,15 +36,15 @@ body {
   overflow: hidden;
   background: transparent url(../media/yannis-h-uaPaEM7MiQQ-unsplash.jpg) no-repeat center center;
   background-size: cover;
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 50px 1fr;
-  place-items: center;
+  place-items: center; */
 }
 
 .content {
   /* outline: 1px solid red; */
-  padding: 0 1.5em 1.5em;
+  /* padding: 0 1.5em 1.5em; */
 }
 
 p {
