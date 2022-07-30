@@ -26,6 +26,12 @@ body {
   margin-bottom: 4em;
 }
 
+.e-mail:before {
+  content: attr(data-website) "\0040" attr(data-user);
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
 a,
  :visited {
   color: #ee6c4d;
@@ -57,9 +63,9 @@ nav {
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.55);
+  /* box-shadow: 0 10px 40px rgba(0, 0, 0, 0.55); */
   /* Frosted glass effect, webkit only */
-  background-color: rgba(239, 239, 239, 0.85);
+  /* background-color: rgba(239, 239, 239, 0.85); */
 }
 
 @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
@@ -233,6 +239,7 @@ button {
   border: 1px solid #adb5bd;
   background-color: #fff;
   color: #adb5bd;
+  text-decoration: line-through;
 }
 
 .btn,
