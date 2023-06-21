@@ -10,7 +10,9 @@
 </head>
 
 <body>
+    <div id="anchor"></div>
     <section class="container">
+        <button class="button-13" role="button">Home</button>
         <h1>Organization's Mission & Goals</h1>
         <p>Our mission is to awaken the world to the reality of GOD and HIS KINGDOM by being HIS loving hands and heart. We are here to create real transformation of the heart by fulfilling HIS will, expressed through love, compassion, and good works that
             will manifest by serving people, animals, and nature in need.</p>
@@ -122,9 +124,23 @@
         <p>Fourth Board Member,<br>Pending</p>
         <p>Fifth Board Member,<br>Pending</p>
         <p>Frank J. Quinones,<br>Co-Founder, CEO</p>
+        <button class="button-13b">Back to Top</button>
     </section>
 
+    <script>
+        var buttons = document.getElementsByClassName("button-13");
+        buttons[0].addEventListener("click", function() {
+            window.location.href = "index.html";
+        });
 
+        var buttons = document.getElementsByClassName("button-13b");
+        buttons[0].addEventListener("click", function() {
+            var anchorElement = document.getElementById("anchor");
+            anchorElement.scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    </script>
 
 </body>
 

@@ -49,7 +49,8 @@ a:hover {
   padding: 5px;
 }
 
-nav {
+
+/* nav {
   width: 200px;
   height: 50px;
   font-family: "Helvetica", sans-serif;
@@ -57,22 +58,23 @@ nav {
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
-  /* box-shadow: 0 10px 40px rgba(0, 0, 0, 0.55); */
-  /* Frosted glass effect, webkit only */
-  /* background-color: rgba(239, 239, 239, 0.85); */
-}
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.55);
+  Frosted glass effect,
+  webkit only background-color: rgba(239, 239, 239, 0.85);
+} */
 
-@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
-  /* nav {
+
+/* @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  nav {
     -webkit-backdrop-filter: blur(.5rem);
     backdrop-filter: blur(.5rem);
     background-color: rgba(255, 255, 255, 0.5);
-  } */
-}
+  }
+} */
 
 
 /* 
-    end frosted glass effect
+    End Frosted glass effect
     https://codepen.io/jsblaisdell/pen/PoPjLoP?editors=1100
 */
 
@@ -317,6 +319,9 @@ li {
   max-width: 50ch;
   padding-bottom: 1em;
 }
+
+
+/* End Font Clamp */
 
 
 /* BASIN CONTACT FORM */
