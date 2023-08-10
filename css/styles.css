@@ -9,6 +9,7 @@ colors: https://coolors.co/palettes/trending
 @import url('../css/boska.css');
 @import url('../css/zodiak.css');
 @import url('../css/marasga.css');
+
 body,
 html {
   margin: 0;
@@ -27,7 +28,7 @@ body {
 }
 
 a,
- :visited {
+:visited {
   color: #ee6c4d;
   /* font-family: "Helvetica", sans-serif; */
   text-decoration: none;
@@ -189,9 +190,11 @@ img {
     grid-gap: 1em;
     padding: 1rem 2em;
   }
+
   .card p {
     text-align: left;
   }
+
   #hero2 {
     background-position: center -170px;
   }
@@ -226,7 +229,7 @@ img {
 
 /* Make sure to add button href back in the html. */
 
-button {
+#donate {
   height: 45px;
   width: auto;
   padding: 1em 3em;
@@ -246,7 +249,7 @@ button {
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient( to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
   margin: 2em 0;
 }
 
@@ -261,7 +264,7 @@ h2,
 h3,
 p,
 li {
-  font-size: clamp( var(--fluid-type-min, 1rem), calc(1rem + var(--fluid-type-target, 3vw)), var(--fluid-type-max, 1.3rem));
+  font-size: clamp(var(--fluid-type-min, 1rem), calc(1rem + var(--fluid-type-target, 3vw)), var(--fluid-type-max, 1.3rem));
 }
 
 h1 {
@@ -320,7 +323,6 @@ li {
   padding-bottom: 1em;
 }
 
-
 /* End Font Clamp */
 
 
@@ -346,7 +348,8 @@ textarea {
   /* Add a top margin */
   margin-bottom: 16px;
   /* Bottom margin */
-  resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 
