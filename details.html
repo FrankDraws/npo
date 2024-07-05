@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="status.css" />
+        <link rel="stylesheet" href="details.css" />
         <title>Details</title>
     </head>
 
@@ -175,14 +175,22 @@
             <p>Fourth Board Member,<br />Pending</p>
             <p>Fifth Board Member,<br />Pending</p>
             <p>Frank J. Quinones,<br />Co-Founder, Executive Director</p>
-            <button class="button-13b">Back to Top</button>
+            <button class="button-13b">Back to Top</button> &nbsp;
+            <button class="button-13" role="button">Home</button>
         </section>
 
         <script>
+            // Retrieve all elements with the class name "button-13"
             var buttons = document.getElementsByClassName("button-13");
-            buttons[0].addEventListener("click", function () {
-                window.location.href = "index.html";
-            });
+
+            // Loop through each element in the HTMLCollection
+            for (var i = 0; i < buttons.length; i++) {
+                // Add a click event listener to each element
+                buttons[i].addEventListener("click", function () {
+                    // Navigate to "index.html" when the button is clicked
+                    window.location.href = "index.html";
+                });
+            }
 
             var buttons = document.getElementsByClassName("button-13b");
             buttons[0].addEventListener("click", function () {
