@@ -1,75 +1,120 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact - Helping Hands For All</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Helping Hands For All</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://unpkg.com/@csstools/normalize.css"
+            rel="stylesheet"
+        />
 
-    <link href="https://unpkg.com/@csstools/normalize.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
 
+    <body>
+        <!-- This inspiration for this: https://websitedemos.net/heritage-hotel-04/ -->
 
-    <link rel="stylesheet" href="css/styles.css">
-
-</head>
-
-<body>
-    <!-- This inspiration for this: https://websitedemos.net/heritage-hotel-04/ -->
-
-    <section id="hero2">
-        <nav>
-            <a class="navlink" href="/">Home</a>
-            <!-- <a class="navlink" href="#">About</a> -->
-        </nav>
-        <h1 id="herocopy">Contact Us</h1>
-    </section>
-
-    <section id="main">
-
-        <section class="content cform">
-            <div class="container">
-                <p>We'd love to hear from you. You can either email us at <em>serve[at]helpinghandsforall.org</em>, or fill out the form below and submit.</p>
-                <br><br>
-                <form action="https://formsubmit.co/##
-                4aff803a7694d0d47bc5c30c47b77723" method="POST">
-
-                    <label for="fname">Full Name</label>
-                    <input type="text" id="name" name="full_name" placeholder="Full Name" required>
-
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="Email" required>
-
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Write your message here." style="height:200px"></textarea>
-
-                    <button type="submit">Submit</button>
-
-                    <input type="hidden" name="_next" value="https://www.helpinghandsforall.org/thank-you.html">
-
-                    <input type="text" name="_honey" style="display:none">
-
-                    <!-- <input type="hidden" name="_captcha" value="false"> -->
-                    <!-- Form by https://formsubmit.co -->
-                </form>
-            </div>
-
+        <section id="hero2">
+            <nav>
+                <a class="navlink" href="/">Home</a>
+                <!-- <a class="navlink" href="#">About</a> -->
+            </nav>
+            <h1 id="herocopy">Contact Us</h1>
         </section>
 
-        <section class="content">
-            <hr>
+        <section id="main">
+            <section class="content cform">
+                <div class="container">
+                    <p>
+                        We'd love to hear from you. You can either email us at
+                        <em>serve[at]helpinghandsforall.org</em>, or fill out
+                        the form below and submit.
+                    </p>
+                    <br /><br />
+                    <form
+                        action="https://formsubmit.co/##
+                4aff803a7694d0d47bc5c30c47b77723"
+                        method="POST"
+                    >
+                        <label for="fname">Full Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="full_name"
+                            placeholder="Full Name"
+                            required
+                        />
+
+                        <label for="email">Email</label>
+                        <input
+                            type="text"
+                            id="email"
+                            name="email"
+                            placeholder="Email"
+                            required
+                        />
+
+                        <label for="message">Message</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            placeholder="Write your message here."
+                            style="height: 200px"
+                        ></textarea>
+
+                        <button type="submit">Submit</button>
+
+                        <input
+                            type="hidden"
+                            name="_next"
+                            value="https://www.helpinghandsforall.net/thank-you.html"
+                        />
+
+                        <input
+                            type="text"
+                            name="_honey"
+                            style="display: none"
+                        />
+
+                        <!-- <input type="hidden" name="_captcha" value="false"> -->
+                        <!-- Form by https://formsubmit.co -->
+                    </form>
+                </div>
+            </section>
+
+            <section class="content">
+                <hr />
+            </section>
+
+            <section class="content footer">
+                <p class="legal">
+                    Copyright © 2022 Helping Hands For All Creatures Great And
+                    Small, Inc. All rights reserved.
+                </p>
+                <p class="legal credit">
+                    <span
+                        >Photo by
+                        <a
+                            href="https://unsplash.com/@editholic7?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                            target="_blank"
+                            rel="noopener"
+                            >Kunal Shinde</a
+                        >
+                        on
+                        <a
+                            href="https://unsplash.com"
+                            target="_blank"
+                            rel="noopener"
+                            >Unsplash</a
+                        ></span
+                    >
+                </p>
+            </section>
         </section>
-
-        <section class="content footer">
-            <p class="legal">Copyright © 2022 Helping Hands For All Creatures Great And Small, Inc. All rights reserved.</p>
-            <p class="legal credit"><span>Photo by <a href="https://unsplash.com/@editholic7?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Kunal Shinde</a> on <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a></span>
-            </p>
-        </section>
-
-    </section>
-
-</body>
-
+    </body>
 </html>
