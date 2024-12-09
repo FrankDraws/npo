@@ -55,7 +55,15 @@ a:hover {
 }
 
 
-nav {
+#navindex {
+  width: 200px;
+  height: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+
+#navcontact {
   width: 200px;
   height: 50px;
   display: grid;
@@ -70,7 +78,7 @@ nav {
 
 
 @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
-  nav {
+  #navcontact {
     -webkit-backdrop-filter: blur(.5rem);
     backdrop-filter: blur(.5rem);
     background-color: rgba(255, 255, 255, 0.5);
