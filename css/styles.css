@@ -1,5 +1,5 @@
-/* 
-I accomplished my goal, but I wonder if there's a better way to do this? 
+/*
+I accomplished my goal, but I wonder if there's a better way to do this?
 ~
 Template: Practice UI 01a
 colors: https://coolors.co/palettes/trending
@@ -25,6 +25,7 @@ body {
   grid-template-columns: 1fr;
   place-items: center;
   margin-bottom: 4em;
+  font-family: "Boska-Variable";
 }
 
 a,
@@ -42,7 +43,10 @@ a:hover {
 
 .navlink,
 .navlink:visited {
-  color: #000;
+    font-family: "Helvetica", sans-serif;
+    font-size: 1.2em;
+    font-weight: 900;
+    color: #333;
 }
 
 .highlight {
@@ -51,30 +55,28 @@ a:hover {
 }
 
 
-/* nav {
+nav {
   width: 200px;
   height: 50px;
-  font-family: "Helvetica", sans-serif;
-  font-weight: 500;
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.55);
+  cursor: pointer;
   Frosted glass effect,
-  webkit only background-color: rgba(239, 239, 239, 0.85);
-} */
+  webkit only background-color: rgba(255, 255, 255, 1);
+}
 
 
-/* @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
   nav {
     -webkit-backdrop-filter: blur(.5rem);
     backdrop-filter: blur(.5rem);
     background-color: rgba(255, 255, 255, 0.5);
   }
-} */
-
-
-/* 
+}
+/*
     End Frosted glass effect
     https://codepen.io/jsblaisdell/pen/PoPjLoP?editors=1100
 */
@@ -201,7 +203,7 @@ img {
 }
 
 
-/* 
+/*
 @media (hover: hover) {
   button {
     height: 45px;
@@ -223,7 +225,7 @@ img {
     border: 1px solid #99d98c;
     color: #007f5f;
   }
-} 
+}
 */
 
 
@@ -254,8 +256,8 @@ hr {
 }
 
 
-/* 
-  Font Clamp  
+/*
+FONT CLAMP
   https://piccalil.li/tutorial/fluid-typography-with-css-clamp/
 */
 
@@ -326,9 +328,7 @@ li {
 /* End Font Clamp */
 
 
-/* BASIN CONTACT FORM */
-
-
+/* BASIN/FORMSPREE CONTACT FORM */
 /* Style inputs with type="text", select elements and textareas */
 
 input[type=text],
