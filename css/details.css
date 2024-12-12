@@ -1,3 +1,7 @@
+@import url('../css/boska.css');
+@import url('../css/zodiak.css');
+@import url('../css/marasga.css');
+
 :root {
     --bgc: #e7e5e7;
     --hf01: "Helvetica", sans-serif;
@@ -127,14 +131,21 @@ h2,
 h3 {
     font-family: var(--hf01);
 }
-#herocopy2 {
-  font-family: 'Zodiak-Black', serif;
-}
+
 h1 {
     --fluid-type-min: 1.5rem;
     --fluid-type-max: 2.5rem;
     --fluid-type-target: 5vw;
     /* max-width: 30ch; */
+}
+#herocopy {
+  font-family: 'Zodiak-Black', serif;
+  --fluid-type-min: 2.3rem;
+  --fluid-type-max: 3rem;
+  --fluid-type-target: 5vw;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+  color: #fdfdfd;
 }
 
 h2 {
