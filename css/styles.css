@@ -253,6 +253,9 @@ img {
 .btn:hover {
   text-decoration: none;
 }
+.card > .btn > button:disabled {
+  cursor: not-allowed;
+}
 
 hr {
   border: 0;
