@@ -1,0 +1,184 @@
+/* External Imports */
+@import url('../css/boska.css');
+@import url('../css/zodiak.css');
+@import url('../css/marasga.css');
+
+/* Root Variables */
+:root {
+	--bgc: #e7e5e7;
+	--hf01: "Helvetica", sans-serif;
+	--bfont01: "Georgia", serif;
+}
+
+/* Global Resets and Base Styles */
+body,
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	place-items: center;
+	background-color: var(--bgc);
+}
+
+/* Container Styles */
+.container {
+	width: 80vw;
+	height: 100%;
+	margin: 5em 1em 3em;
+}
+
+/* Section: Hero */
+#hero2 {
+	height: 35vh;
+	width: 100%;
+	z-index: 0;
+	overflow: hidden;
+	display: grid;
+	place-items: center;
+	background: transparent url(../media/kunal-shinde--f0YLss50Bs-unsplash.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: white;
+}
+
+#herocopy {
+	font-family: 'Zodiak-Black', serif;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+	color: #fdfdfd;
+	font-size: clamp(2.3rem, 5vw, 3rem);
+}
+
+/* Typography - Font Clamp */
+h1,
+h2,
+h3,
+p,
+li,
+blockquote,
+th,
+td {
+	font-size: clamp(1rem, calc(1rem + 3vw), 1.3rem);
+	max-width: 60ch;
+	line-height: 1.7;
+	font-family: var(--bfont01);
+	padding-bottom: 0.5em;
+}
+
+h1,
+h2,
+h3 {
+	font-family: var(--hf01);
+}
+
+h1 {
+	font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
+
+h2 {
+	font-size: clamp(1rem, 5vw, 1.8rem);
+}
+
+h3 {
+	font-size: clamp(0.7rem, 5vw, 1.4rem);
+	text-transform: capitalize;
+}
+
+/* Lists */
+.sans {
+	list-style: none;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.red {
+	color: red;
+}
+
+/* Blockquote */
+blockquote {
+	border-left: 3px solid #d88d00;
+	padding-left: 1em;
+	color: #d88d00;
+	background-color: #efefef;
+	padding: 1em;
+}
+
+/* Tables */
+table {
+	border: 1px solid #b3adad;
+	border-collapse: collapse;
+	margin: 3em 0 5em 0;
+}
+
+table th {
+	font-family: var(--hf01);
+	border: 1px solid #b3adad;
+	padding: 1em;
+	background: #f0f0f0;
+	color: #313030;
+	text-align: left;
+}
+
+table td {
+	border: 1px solid #b3adad;
+	padding: 1em;
+	background: #ffffff;
+	color: #313030;
+}
+
+.total {
+	border-top: 3px solid #b3adad;
+}
+
+/* Buttons */
+.button-13,
+.button-13b,
+.button-13c {
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.1);
+	border: 1px solid #afafaf;
+	border-radius: 7px;
+	box-shadow:
+		transparent 0 0 0 3px,
+		rgba(18, 18, 18, 0.1) 0 6px 20px;
+	box-sizing: border-box;
+	color: #121212;
+	cursor: pointer;
+	display: inline-flex;
+	flex: 1 1 auto;
+	font-family: Inter, sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+	justify-content: center;
+	line-height: 1;
+	margin: 1em 0;
+	outline: none;
+	padding: 1rem 1.2rem;
+	text-align: center;
+	text-decoration: none;
+	transition: box-shadow 0.2s;
+	white-space: nowrap;
+	user-select: none;
+	touch-action: manipulation;
+}
+
+.button-13:hover,
+.button-13b:hover,
+.button-13c:hover {
+	box-shadow: #ff6b6b 0 0 0 1px, transparent 0 0 0 0;
+}
+
+/* Miscellaneous */
+.rmv {
+	background-color: transparent;
+}
+
+input[type="checkbox"]:checked + label {
+	text-decoration: line-through;
+	color: #888;
+}
