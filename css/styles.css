@@ -112,8 +112,6 @@ nav img {
   z-index: 0;
   overflow: hidden;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 50px 1fr;
   place-items: center;
   background: transparent url(../media/kunal-shinde--f0YLss50Bs-unsplash.jpg) no-repeat;
   background-size: cover;
