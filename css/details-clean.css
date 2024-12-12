@@ -51,7 +51,9 @@ html {
 	font-size: clamp(2.3rem, 5vw, 3rem);
 }
 
-/* Typography - Font Clamp */
+/* Typography - Font Clamp
+	https://piccalil.li/tutorial/fluid-typography-with-css-clamp/
+*/
 h1,
 h2,
 h3,
@@ -108,7 +110,7 @@ blockquote {
 	padding: 1em;
 }
 
-/* Tables */
+/* Tables - https://codebeautify.org/html-table-generator */
 table {
 	border: 1px solid #b3adad;
 	border-collapse: collapse;
