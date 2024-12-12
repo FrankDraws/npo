@@ -30,8 +30,6 @@ body {
   z-index: 0;
   overflow: hidden;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 50px 1fr;
   place-items: center;
   background: transparent url(../media/kunal-shinde--f0YLss50Bs-unsplash.jpg) no-repeat;
   background-size: cover;
@@ -129,7 +127,9 @@ h2,
 h3 {
     font-family: var(--hf01);
 }
-
+#herocopy2 {
+  font-family: 'Zodiak-Black', serif;
+}
 h1 {
     --fluid-type-min: 1.5rem;
     --fluid-type-max: 2.5rem;
