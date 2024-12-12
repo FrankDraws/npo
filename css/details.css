@@ -160,7 +160,7 @@ td {
 
 /* CSS */
 
-.button-13 {
+/* .button-13, .button-13b, .button-13c {
     align-items: center;
     background-color: #fff;
     border-radius: 7px;
@@ -190,8 +190,8 @@ td {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-}
-.button-13b, .button-13c {
+} */
+.button-13, .button-13b, .button-13c {
     align-items: center;
     background-color: rgba(255, 255, 255, 0.1); /* #efefef */
     border: 1px solid #afafaf;
