@@ -30,14 +30,14 @@ html {
 }
 
 /* Section: Hero */
-#hero2 {
+#hero3 {
 	height: 35vh;
 	width: 100%;
 	z-index: 0;
 	overflow: hidden;
 	display: grid;
 	place-items: center;
-	background: transparent url(../media/kunal-shinde--f0YLss50Bs-unsplash.jpg) no-repeat;
+	background: transparent url(../media/dog-on-couch.jpg) no-repeat;
 	background-size: cover;
 	background-position: center center;
 	color: white;
