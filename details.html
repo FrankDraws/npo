@@ -11,8 +11,13 @@
 
     <body>
         <div id="anchor"></div>
+        <section id="hero2">
+
+            </nav> -->
+            <h1 id="herocopy">Details</h1>
+        </section>
         <section class="container">
-            <button class="button-13" role="button">Home</button>
+            <!-- <button class="button-13" role="button">Home</button> -->
             <h1>Organization's Mission & Goals</h1>
             <p>
                 Our mission is to awaken the world to the reality of GOD and HIS
@@ -176,12 +181,14 @@
             <p>Fifth Board Member,<br />Pending</p>
             <p>Frank J. Quinones,<br />Co-Founder, Executive Director</p>
             <button class="button-13b">Back to Top</button> &nbsp;
-            <button class="button-13" role="button">Home</button>
+            <button class="button-13" role="button">Home</button> &nbsp;
+            <button class="button-13c" role="button">Contact</button>
         </section>
 
         <script>
             // Retrieve all elements with the class name "button-13"
             var buttons = document.getElementsByClassName("button-13");
+
 
             // Loop through each element in the HTMLCollection
             for (var i = 0; i < buttons.length; i++) {
@@ -191,6 +198,19 @@
                     window.location.href = "index.html";
                 });
             }
+
+var buttons = document.getElementsByClassName("button-13c");
+
+// Loop through each element in the HTMLCollection
+for (var i = 0; i < buttons.length; i++) {
+    // Add a click event listener to each element
+    buttons[i].addEventListener("click", function () {
+        // Navigate to "index.html" when the button is clicked
+        window.location.href = "contact.html";
+    });
+}
+
+
 
             var buttons = document.getElementsByClassName("button-13b");
             buttons[0].addEventListener("click", function () {
