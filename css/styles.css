@@ -43,10 +43,10 @@ a:hover {
 
 .navlink,
 .navlink:visited {
-    font-family: "Helvetica", sans-serif;
-    font-size: 1.2em;
-    font-weight: 900;
-    color: #333;
+  font-family: "Helvetica", sans-serif;
+  font-size: 1.2em;
+  font-weight: 900;
+  color: #333;
 }
 
 .highlight {
@@ -84,6 +84,7 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.5);
   }
 }
+
 /*
     End Frosted glass effect
     https://codepen.io/jsblaisdell/pen/PoPjLoP?editors=1100
@@ -253,7 +254,8 @@ img {
 .btn:hover {
   text-decoration: none;
 }
-.card > .btn > button:disabled {
+
+.card>.btn>button:disabled {
   cursor: not-allowed;
 }
 
@@ -338,7 +340,7 @@ li {
 
 
 /* BASIN/FORMSPREE CONTACT FORM */
-/* Style inputs with type="text", select elements and textareas */
+/* Style inputs with type="text", select elements and text areas */
 
 input[type=text],
 select,
