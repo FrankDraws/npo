@@ -16,6 +16,7 @@ html {
   padding: 0;
   width: 100%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -360,10 +361,11 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 
 .container {
-  border-radius: 5px;
+  /* border-radius: 5px; */
   max-width: 85vw;
 }
 
+/* For Contact Us page */
 .container p {
   max-width: 60ch;
 }
