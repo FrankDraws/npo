@@ -118,44 +118,6 @@ table td {
 	border-top: 3px solid #b3adad;
 }
 
-/* Buttons */
-.button-13,
-.button-13b,
-.button-13c {
-	align-items: center;
-	background-color: rgba(255, 255, 255, 0.1);
-	border: 1px solid #afafaf;
-	border-radius: 7px;
-	box-shadow:
-		transparent 0 0 0 3px,
-		rgba(18, 18, 18, 0.1) 0 6px 20px;
-	box-sizing: border-box;
-	color: #121212;
-	cursor: pointer;
-	display: inline-flex;
-	flex: 1 1 auto;
-	font-family: Inter, sans-serif;
-	font-size: 1.2rem;
-	font-weight: 700;
-	justify-content: center;
-	line-height: 1;
-	margin: 1em 0;
-	outline: none;
-	padding: 1rem 1.2rem;
-	text-align: center;
-	text-decoration: none;
-	transition: box-shadow 0.2s;
-	white-space: nowrap;
-	user-select: none;
-	touch-action: manipulation;
-}
-
-.button-13:hover,
-.button-13b:hover,
-.button-13c:hover {
-	box-shadow: #ff6b6b 0 0 0 1px, transparent 0 0 0 0;
-}
-
 /* Miscellaneous */
 .rmv {
 	background-color: transparent;
@@ -164,4 +126,9 @@ table td {
 input[type="checkbox"]:checked + label {
 	text-decoration: line-through;
 	color: #888;
+}
+
+.footer {
+  display: grid;
+  place-items: center;
 }
