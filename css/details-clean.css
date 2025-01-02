@@ -1,15 +1,4 @@
-/* External Imports */
-@import url('../css/boska.css');
-@import url('../css/zodiak.css');
-@import url('../css/marasga.css');
-
-/* Root Variables */
-:root {
-	--bgc: #e7e5e7;
-	--hf01: "Helvetica", sans-serif;
-	--bfont01: "Georgia", serif;
-}
-
+@import url("styles.css");
 /* Global Resets and Base Styles */
 body,
 html {
