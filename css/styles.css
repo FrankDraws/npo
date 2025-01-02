@@ -210,32 +210,6 @@ img {
 }
 
 
-/*
-@media (hover: hover) {
-  button {
-    height: 45px;
-    width: auto;
-    display: block;
-    padding: 1em 3em;
-    margin: 1em .5em;
-    line-height: 0;
-    border: 1px solid gold;
-    background-color: #fff;
-    color: #3c096c;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-  }
-  button:hover {
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-    transform: scale(1.05);
-    transition: all 0.1s ease-in-out;
-    border: 1px solid #99d98c;
-    color: #007f5f;
-  }
-}
-*/
-
-
 /* Make sure to add button href back in the html. */
 
 #donate {
@@ -387,8 +361,6 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  /* background-color: #fff; */
-  /* padding: 20px; */
   max-width: 85vw;
 }
 
